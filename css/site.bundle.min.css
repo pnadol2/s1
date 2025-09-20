@@ -1,0 +1,8 @@
+﻿:root{--bg:#f5f6f8;--card:#fff;--accent:#1e90ff;--muted:#666;--gap:18px;--radius:8px}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:#222;direction:rtl;font-family:Arial, "Noto Naskh Arabic", sans-serif}
+.container{max-width:980px;margin:0 auto;padding:20px}
+.card{background:var(--card);border-radius:8px;padding:18px;box-shadow:0 2px 6px rgba(0,0,0,0.04);margin:16px 0}
+.form-control{width:100%;padding:10px;border:1px solid #dcdcdc;border-radius:6px;background:#fff}
+.btn{padding:8px 14px;border-radius:6px;background:#f0f0f0;border:1px solid transparent}
+.footer{padding:24px 0;text-align:center;color:var(--muted);border-top:1px solid #eee}
